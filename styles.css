@@ -1,0 +1,1060 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1025px) {
+  .header {
+    width: 100%;
+    background-color: A67FE7;
+    height: 100px;
+  }
+
+  .headerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 14px 0px 14px 40px;
+  }
+
+  .buttonContainer {
+    margin-left: auto;
+    margin-right: 40px;
+  }
+
+  .buttonSign {
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    background-color: 5807BF;
+    border-color: 470699;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+    margin: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .buttonLog {
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-color: gainsboro;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+    margin: 10px;
+  }
+
+  .home {
+    width: 70px;
+  }
+
+  .content {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+
+  .backgroundImg {
+    background-color: A67FE7;
+    width: 500px;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgContainer {
+    margin: 0 100px 0 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    width: 400px;
+  }
+
+  .text {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .text h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: 9B74CD;
+  }
+
+  .buttonContent {
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    background-color: A67FE7;
+    border-color: 9B74CD;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+    margin: 20px 100px 0px 0px;
+  }
+
+  .signinContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #student {
+    margin-right: 100px;
+  }
+
+  .fields {
+    text-align: left;
+    width: 100%;
+    font-size: 25px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .textInput {
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;
+    background-color: D7D7D6;
+    border-color: D7D7D6;
+  }
+
+  .textInputLogin {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: D7D7D6;
+    border-color: D7D7D6;
+  }
+
+  .formContent {
+    width: 350px;
+    margin-top: 60px;
+  }
+
+  .radio {
+    margin-top: 20px;
+  }
+
+  .signinTitle {
+    font-size: 28px;
+  }
+
+  .signinSideText {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: right;
+    width: 350px;
+  }
+
+  .signinSideText span {
+    color: blueviolet;
+    margin-left: 10px;
+  }
+
+  .signinButtonContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: right;
+    width: 350px;
+  }
+
+  .readmoreContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .intro {
+    width: 800px;
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .typesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    justify-content: center;
+  }
+
+  .types {
+    width: 360px;
+    margin: 10px 20px 30px 10px;
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .readmoreButtonContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: right;
+    width: 800px;
+  }
+
+  .textTypes {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .teacherQuestionContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .teacherContainer {
+    width: 800px;
+    margin-top: 60px;
+  }
+
+  .questionOptions {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    font-size: 25px;
+  }
+
+  .answers {
+    margin: 10px 0px;
+    text-align: justify;
+  }
+
+  .number {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  .nextButtonContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: right;
+    width: 800px;
+  }
+
+  .nextButtonTeacher {
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    background-color: #bde3ff;
+    border-color: #97b6cc;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+    margin: 10px;
+  }
+
+  .nextButtonStudent {
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    background-color: #e4ccff;
+    border-color: #b6a3cc;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+    margin: 10px;
+  }
+
+  .resultsContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .graphResult {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .resumeContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+  }
+
+  .fileOptionButton {
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+    margin: 20px;
+  }
+
+  .buttonsResults {
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    background-color: #e4ccff;
+    border-color: #b6a3cc;
+    font-size: 20px;
+    width: 220px;
+    height: 50px;
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 681px) and (max-width: 1024px) {
+  .header {
+    width: 100%;
+    background-color: A67FE7;
+    height: 100px;
+  }
+
+  .headerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 14px 0px 14px 40px;
+  }
+
+  .buttonContainer {
+    margin-left: auto;
+    margin-right: 40px;
+  }
+
+  .buttonSign {
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    background-color: #5807bf;
+    border-color: #470699;
+    font-size: 18px;
+    width: 115px;
+    height: 45px;
+    margin: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .buttonLog {
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-color: gainsboro;
+    font-size: 18px;
+    width: 115px;
+    height: 45px;
+    margin: 10px;
+  }
+
+  .home {
+    width: 60px;
+  }
+
+  .content {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .backgroundImg {
+    background-color: A67FE7;
+    width: 350px;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgContainer {
+    margin: 0 100px 0 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    width: 300px;
+  }
+
+  .text {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .text h1 {
+    margin-bottom: 25px;
+    font-size: 45px;
+    color: #9b74cd;
+  }
+
+  .buttonContent {
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    background-color: A67FE7;
+    border-color: 9B74CD;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    margin: 20px 60px 0px 0px;
+  }
+
+  .signinContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #student {
+    margin-right: 150px;
+  }
+
+  .fields {
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .textInput {
+    margin-top: 20px;
+    width: 100%;
+    height: 27px;
+    background-color: #d7d7d6;
+    border-color: #d7d7d6;
+  }
+
+  .textInputLogin {
+    margin-top: 20px;
+    width: 100%;
+    height: 45px;
+    background-color: #d7d7d6;
+    border-color: #d7d7d6;
+  }
+
+  .formContent {
+    width: 350px;
+    margin-top: 60px;
+  }
+
+  .radio {
+    margin-top: 20px;
+  }
+
+  .signinTitle {
+    font-size: 24px;
+  }
+
+  .signinSideText {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: right;
+    width: 350px;
+  }
+
+  .signinSideText span {
+    color: blueviolet;
+    margin-left: 10px;
+  }
+
+  .signinButtonContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: right;
+    width: 350px;
+  }
+
+  .readmoreContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .intro {
+    width: 650px;
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .typesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    justify-content: center;
+  }
+
+  .readmoreImage {
+    width: 500px;
+  }
+
+  .types {
+    width: 280px;
+    margin: 10px 20px 30px 10px;
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .readmoreButtonContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: right;
+    width: 650px;
+  }
+
+  .textTypes {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .teacherQuestionContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .teacherContainer {
+    width: 600px;
+    margin-top: 60px;
+  }
+
+  .questionOptions {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    font-size: 20px;
+  }
+
+  .answers {
+    margin: 10px 0px;
+    text-align: justify;
+  }
+
+  .number {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .nextButtonContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: right;
+    width: 600px;
+  }
+
+  .nextButtonTeacher {
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    background-color: #bde3ff;
+    border-color: #97b6cc;
+    font-size: 18px;
+    width: 110px;
+    height: 45px;
+    margin: 10px;
+  }
+
+  .nextButtonStudent {
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    background-color: #e4ccff;
+    border-color: #b6a3cc;
+    font-size: 18px;
+    width: 110px;
+    height: 45px;
+    margin: 10px;
+  }
+
+  .resultsContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .graphResult {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .graph {
+    width: 500px;
+  }
+
+  .resumeContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+  }
+
+  .fileOptionButton {
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    width: 110px;
+    height: 45px;
+    margin: 20px;
+  }
+
+  .table {
+    width: 500px;
+  }
+
+  .buttonsResults {
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    background-color: #e4ccff;
+    border-color: #b6a3cc;
+    font-size: 18px;
+    width: 200px;
+    height: 45px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .header {
+    width: 100%;
+    background-color: #a67fe7;
+    height: 100px;
+  }
+
+  .headerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: start;
+    margin: 14px 0px 14px 40px;
+  }
+
+  .buttonContainer {
+    margin-left: auto;
+    margin-right: 40px;
+  }
+
+  .buttonSign {
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    background-color: #5807bf;
+    border-color: #470699;
+    font-size: 16px;
+    width: 105px;
+    height: 40px;
+    margin: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .buttonLog {
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-color: gainsboro;
+    font-size: 16px;
+    width: 105px;
+    height: 40px;
+    margin: 10px;
+  }
+
+  .home {
+    width: 60px;
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    margin-top: 30px;
+  }
+
+  .backgroundImg {
+    background-color: #a67fe7;
+    width: 375px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    width: 300px;
+  }
+
+  .text {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .text h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #9b74cd;
+    text-align: center;
+  }
+
+  .buttonContent {
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    background-color: #a67fe7;
+    border-color: #9b74cd;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    margin: 20px 170px 0px 0px;
+  }
+
+  .signinContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #student {
+    margin-right: 150px;
+  }
+
+  .fields {
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .textInput {
+    margin-top: 20px;
+    width: 100%;
+    height: 27px;
+    background-color: #d7d7d6;
+    border-color: #d7d7d6;
+  }
+
+  .textInputLogin {
+    margin-top: 20px;
+    width: 100%;
+    height: 45px;
+    background-color: #d7d7d6;
+    border-color: #d7d7d6;
+  }
+
+  .formContent {
+    width: 350px;
+    margin-top: 60px;
+  }
+
+  .radio {
+    margin-top: 20px;
+  }
+
+  .signinTitle {
+    font-size: 20px;
+  }
+
+  .signinSideText {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: right;
+    width: 350px;
+  }
+
+  .signinSideText span {
+    color: blueviolet;
+    margin-left: 10px;
+  }
+
+  .signinButtonContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: right;
+    width: 350px;
+  }
+
+  .readmoreContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .intro {
+    width: 320px;
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .typesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    justify-content: center;
+  }
+
+  .readmoreImage {
+    width: 400px;
+  }
+
+  .types {
+    width: 400px;
+    margin: 10px 20px 30px 10px;
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .readmoreButtonContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: right;
+    width: 400px;
+  }
+
+  .textTypes {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .teacherQuestionContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .teacherContainer {
+    width: 400px;
+    margin-top: 60px;
+  }
+
+  .questionOptions {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    font-size: 18px;
+  }
+
+  .answers {
+    margin: 10px 0px;
+    text-align: justify;
+  }
+
+  .number {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .nextButtonContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: right;
+    width: 400px;
+  }
+
+  .nextButtonTeacher {
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    background-color: #bde3ff;
+    border-color: #97b6cc;
+    font-size: 18px;
+    width: 105px;
+    height: 40px;
+    margin: 10px;
+  }
+
+  .nextButtonStudent {
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    background-color: #e4ccff;
+    border-color: #b6a3cc;
+    font-size: 18px;
+    width: 105px;
+    height: 40px;
+    margin: 10px;
+  }
+
+  .resultsContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .graphResult {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .graph {
+    width: 400px;
+  }
+
+  .resumeContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttonsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 40px;
+  }
+
+  .fileOptionButton {
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    width: 105px;
+    height: 40px;
+    margin: 20px;
+  }
+
+  .table {
+    width: 400px;
+  }
+
+  .buttonsResults {
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    background-color: #e4ccff;
+    border-color: #b6a3cc;
+    font-size: 16px;
+    width: 170px;
+    height: 45px;
+    margin: 10px;
+  }
+}
